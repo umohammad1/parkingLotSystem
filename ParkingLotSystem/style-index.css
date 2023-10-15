@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: left top;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 100, 0.5); 
+}
+
+
+.content {
+    color: #fff;
+    margin: 10px;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: left;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 56px; 
+}
+
+h1, p, .button {
+    margin: 10px 0;
+}
+
+.title1{
+    font-size: 70px;
+    padding-left: 190px;
+    top: 300px;
+}
+
+.title2{
+    font-size: 50px;
+    padding-left: 310px;
+}
+
+.title3{
+    font-size: 70px;
+    padding-left: 60px;
+}
+
+.quote{
+    padding-left: 400px;
+    padding-bottom: 40px;
+}
+
+.button {
+    background: #007BFF;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+}
+
+.navigation{
+    padding-left: 250px;
+    padding-bottom: 100px;
+}
